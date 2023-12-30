@@ -1,0 +1,76 @@
+2023-05-20 23:17:01,301 ERROR [DbConnection] java.sql.SQLException: No suitable driver found for jdbc:mysql/localhost/gestionContact
+2023-05-20 23:18:31,843 ERROR [DbConnection] java.sql.SQLException: No suitable driver found for "jdbc:mysql/localhost/gestionContact"
+2023-05-20 23:18:54,704 ERROR [DbConnection] java.sql.SQLException: No suitable driver found for "jdbc:mysql/localhost/sys"
+2023-05-20 23:27:15,431 ERROR [DbConnection] java.sql.SQLException: No suitable driver found for "jdbc:mysql//localhost/sys"
+2023-05-20 23:27:59,470 ERROR [DbConnection] java.sql.SQLException: No suitable driver found for "jdbc:mysql://localhost/sys"
+2023-05-20 23:29:40,671 ERROR [DbConnection] java.lang.ClassNotFoundException: "com.mysql.jdbc.Driver"
+2023-05-20 23:32:36,590 ERROR [DbConnection] java.lang.ClassNotFoundException: "com.mysql.jdbc.Driver"
+2023-05-20 23:37:38,286 ERROR [DbConnection] java.lang.ClassNotFoundException: "com.mysql.jdbc.Driver"
+2023-05-20 23:38:53,421 ERROR [DbConnection] java.lang.ClassNotFoundException: "com.mysql.jdbc.Driver"
+2023-05-20 23:49:13,876 ERROR [DbConnection] java.lang.ClassNotFoundException: "com.mysql.jdbc.Driver"
+2023-05-20 23:50:51,294 ERROR [DbConnection] java.lang.ClassNotFoundException: "com.mysql.jdbc.Driver"
+2023-05-20 23:51:46,846 ERROR [DbConnection] java.lang.ClassNotFoundException: "com.mysql.jdbc.Driver"
+2023-05-20 23:54:59,580 ERROR [DbConnection] java.lang.ClassNotFoundException: "com.mysql.cj.jdbc.Driver"
+2023-05-20 23:55:16,941 ERROR [DbConnection] java.lang.ClassNotFoundException: "com.mysql.jdbc.Driver"
+2023-05-21 01:26:01,493 ERROR [DbConnection] java.lang.ClassNotFoundException: "com.mysql.jdbc.Driver"
+2023-05-21 15:19:41,835 ERROR [DbConnection] org.h2.jdbc.JdbcSQLNonTransientConnectionException: File corrupted while reading record: "C:/Users/us/dbapp2.mv.db". Possible solution: use the recovery tool [90030-214]
+2023-05-22 13:31:31,598 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'auto_incrment,
+                           Nom varchar(20),
+                     ' at line 2
+2023-05-22 14:18:54,251 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Like CONTACT' at line 1
+2023-05-22 14:23:18,385 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONTACT' at line 1
+2023-05-22 14:25:13,101 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONTACT' at line 1
+2023-05-22 14:26:13,687 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONTACT' at line 1
+2023-05-22 14:29:45,310 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: Table 'sys.contact' doesn't exist
+2023-05-22 14:29:45,312 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE GROUP(
+                       ID int auto_increment ,
+             ' at line 12
+2023-05-22 20:19:42,622 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE GROUP(
+                       ID int auto_increment ,
+             ' at line 12
+2023-05-22 20:20:50,553 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE GROUP(
+                       ID int primary key auto_increment ,
+ ' at line 12
+2023-05-22 20:21:45,294 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE GROUP(
+                       ID int primary key auto_increment ,
+ ' at line 12
+2023-05-22 20:25:08,986 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE GROUPE
+                      ( ID integer primary key auto_incremen' at line 12
+2023-05-22 20:27:10,037 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE GROUPE
+                 ( ID integer primary key auto_increment,
+  ' at line 12
+2023-05-22 20:31:59,116 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE GROUPE                       ( Id integer primary Key  auto_increme' at line 12
+2023-05-22 21:05:24,350 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE GROUPE
+                 ( ID integer primary key auto_increment ,
+ ' at line 12
+2023-05-22 21:09:39,574 ERROR [DbInstaller] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE GROUPE (
+        ID INTEGER PRIMARY KEY AUTO_INCREMENT,
+        Nom' at line 13
+2023-05-25 14:57:26,624 ERROR [DbConnection] java.sql.SQLSyntaxErrorException: Unknown database 'gestioncontact'
+2023-05-25 15:09:51,954 ERROR [ContactDao] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(Nom,prenom,Adress,telephone1,telephone2,Emailprofessionnel,Emailpersonnel,Genre' at line 1
+2023-05-25 15:18:04,695 ERROR [ContactDao] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(nom,prenom,Adress,telephone1,telephone2,Emailprofessionnel,Emailpersonnel,Genre' at line 1
+2023-05-25 15:21:40,423 ERROR [ContactDao] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(nom,prenom,Adress,telephone1,telephone2,Emailprofessionnel,Emailpersonnel,Genre' at line 1
+2023-05-25 15:27:46,998 ERROR [ContactDao] java.sql.SQLSyntaxErrorException: Unknown column 'Adress' in 'field list'
+2023-05-25 23:45:04,638 ERROR [GroupDao] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP where nomGroup='AMIE'' at line 1
+2023-05-25 23:46:52,446 ERROR [GroupDao] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP where nomGroup='AMIE'' at line 1
+2023-05-25 23:48:18,931 ERROR [GroupDao] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP where nomGroup='AMIE'' at line 1
+2023-05-26 10:42:27,439 ERROR [GroupDao] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP where nomGroup='AMIE'' at line 1
+2023-05-26 10:44:42,465 ERROR [GroupDao] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP where nomGroup='ALIE'' at line 1
+2023-05-26 10:52:27,525 ERROR [GroupDao] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP (Nomgroup) values ('AMIE')' at line 1
+2023-05-26 18:20:03,957  INFO [Main] la creation des tables avec succées
+2023-05-26 19:23:08,318 ERROR [GroupDao] java.sql.SQLException: No value specified for parameter 2
+2023-05-26 19:27:17,782 ERROR [GroupDao] java.sql.SQLException: No value specified for parameter 2
+2023-05-26 19:37:18,964 ERROR [GroupDao] java.sql.SQLException: No value specified for parameter 2
+2023-05-26 21:05:00,990 ERROR [ContactDao] java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '0650421062' for key 'contact.Telephone1'
+2023-05-27 16:10:12,827  INFO [Main] la creation des tables avec succées
+2023-05-27 16:34:19,268 ERROR [GroupDao] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';DELETE FROM GROUPOFCONTACT WHERE IDGROUP=2' at line 1
+2023-05-27 16:54:41,887 ERROR [GroupDao] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';DELETE FROM GROUPE WHERE ID=1' at line 1
+2023-06-08 06:05:28,672 ERROR [ContactDao] java.sql.SQLSyntaxErrorException: Unknown column 'Adress' in 'field list'
+2023-06-08 06:08:37,742  INFO [Main] la creation des tables avec succées
+2023-06-08 06:12:49,538 ERROR [DbInstaller] java.sql.SQLException: Can't create database 'gestioncontact'; database exists
+2023-06-08 06:15:54,761  INFO [Main] la creation des tables avec succées
+2023-06-08 06:17:23,670  INFO [Main] la creation des tables avec succées
+2023-06-08 06:19:01,511  INFO [Main] la creation des tables avec succées
+2023-06-08 06:22:01,853  INFO [Main] la creation des tables avec succées
+2023-06-08 06:31:27,772 ERROR [DbConnection] java.sql.SQLSyntaxErrorException: Unknown database 'gestoincontact'
+2023-06-08 06:31:57,591  INFO [Main] la creation des tables avec succées
