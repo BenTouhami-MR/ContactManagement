@@ -39,9 +39,8 @@ Welcome to the Contact Management Application repository! This Java application 
 3. **Contact:**
    - This table stores information about individual contacts.
 
-## Getting Started
 
-### Prerequisites
+## Prerequisites
 
 - Java Development Kit (JDK)
 - MySQL Database
